@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class consonants
+{
+public static void main(String[] arg)
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the string");
+String a=sc.nextLine();
+String s1=" ";
+String s2=" ";
+s1=a.replaceAll("[aeiou]"," ");
+s2=a.replaceAll("[bcdrfghjklmnpqrstvwxyz]"," ");
+System.out.println("vowels:"+s2);
+System.out.println("consonants:"+s1);
+}
+}
