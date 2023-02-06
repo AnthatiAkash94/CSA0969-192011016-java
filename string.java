@@ -1,16 +1,14 @@
-class ReverseString 
+import java.io.*;
+import java.util.*;
+
+class string
 {
-public static void main(String[] arg)
+public static void main(String arg[])
 {
-    
-String blogName = "Akash";
-String reversedString = "";
-for(int i = blogName.length()-1; i>=0; i--)
-{
-reversedString = reversedString + blogName.charAt(i);
+Scanner s= new Scanner(System.in);
+System.out.println("enter the string:");
+String a= s.nextLine();
+int i=Integer.parseInt(a); 
+System.out.println("output of integer:"+i);
 }
-    
-System.out.print("The reversed string of the '"+blogName+"' is: " );
-System.out.println(reversedString);
-  }
 }
